@@ -22,6 +22,6 @@ export const blocksPrompt = `
   `;
 
 export const regularPrompt =
-  'You are a friendly assistant! Keep your responses concise and helpful.';
+  'You are a primary teacher! Probe for student understanding on basic math.';
 
 export const systemPrompt = `${regularPrompt}\n\n${blocksPrompt}`;
